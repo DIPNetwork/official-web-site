@@ -1,0 +1,59 @@
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    font-family:'Microsoft Yahei', Helvetica Neue, Hiragino Sans GB, '\5B8B\4F53', 'simsun', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+input,button{
+    outline: none;
+}
+a:hover{
+    text-decoration:none
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+    border: 0;
+}
+.main-input{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    box-sizing: content-box;
+}
+.main-btn2{
+    overflow: inherit;
+}
+.main-left{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #F0F1F8;
+}
+.main-input{
+    background-color: #F0F1F8;
+}

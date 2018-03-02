@@ -1,0 +1,351 @@
+
+.page-con{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+	height: 362px;
+	position: absolute;
+	top: 50%;
+	margin-top: -181px;
+	left: 50%;
+	margin-left: -200px
+}
+.main-logo{
+    margin: 0 auto;
+}
+/*通用样式*/
+/*手机*/
+.main-text1,.main-text2,.main-left{
+    color: #999;
+}
+@media screen and (max-width:640px){
+    html{
+        font-size: 37.5px;
+    }
+    .header{
+        font-size: 0.3906rem;
+        font-weight: 500;
+        width: 8.5938rem;
+        margin: 0.2404rem auto;
+        text-align: right;
+    }
+    .main{
+        margin-top: 0rem;
+       /* position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-60%);*/
+    }
+    .main-logo{
+        display: block;
+        width: 110px;
+        /*height: 1.5rem;*/
+        margin-bottom: 0.5781rem;
+    }
+    .main-text1{
+        text-align: center;
+        font-size: 0.3506rem;
+    }
+    .main-btn a{
+        color: #fff;
+        font-size: 0.3906rem;
+    }
+    .main-text2{
+        text-align: center;
+        font-size: 0.3506rem;
+        margin-bottom: 0.8687rem;
+    }
+    .main-text3{
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    .main-text4 {
+        margin-bottom: 0.25rem;
+        font-weight: 600;
+    }
+    .main-input{
+        margin: 0 auto;
+        width: 8.5938rem;
+        height: 1rem;
+        line-height: 1rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 1rem;
+        background: #F0F1F8;
+    }
+    .main-p{
+        cursor: pointer;
+        width: 8.5938rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        background-color: #3678ff;
+        color: #fff;
+        border-radius: 1.2rem;
+        text-align: center;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .main-p:active{
+        background-color: #0C54E4;
+    }
+    .main-left{
+        width: 7rem;
+        border: none;
+        height: 1rem;
+        display: block;
+        margin-left: 0.4rem;
+        font-size: 0.31rem;
+        background: #F0F1F8;
+    }
+    .main-btn2{
+        font-size: 0.31rem;
+        width: 1.3437rem;
+        height: 0.8437rem;
+        text-align: center;
+        line-height: 0.8437rem;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 30px;
+        background-color: #3678ff;
+        margin-right: 0.1rem;
+    }
+    .main-text5{
+        margin-bottom: 0.7rem;
+    }
+    .main-text6{
+        font-weight: 600;
+        margin-top: 0.7375rem;
+        margin-bottom: 0.25rem;
+    }
+    .main-text7{
+        margin-bottom: 0.7125rem;
+    }
+    .main-text8{
+        margin-top: 0.7125rem;
+    }
+    .main-bottom{
+        margin: 0 auto;
+        width: 8.5938rem;
+        display: flex;
+    }
+    .main-btn2:active{
+        background-color: #0C54E4;
+    }
+    .main-bottom text{
+        display: block;
+        font-size: 0.38rem;
+    }
+    .main-bottom-left,.main-bottom-right{
+        width: 4.2rem;
+        height: 2.2rem;
+        color: #fff;
+        border-radius: 0.1562rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-bottom .main-bottom-left-t3{
+        font-size: 0.31rem;
+        color: #f9aab6;
+    }
+    .main-bottom-left{
+        background-color: #226CFF;
+        margin-right: 0.46rem;
+    }
+    .main-bottom-right{
+        background-color: #FF3860;
+    }
+    .main-bottom-right .main-bottom-left-t2{
+        font-size: 0.6rem;
+    }
+    .main-bottom-left .main-bottom-left-t2{
+        font-size: 0.6rem;
+    }
+    .main-bottom .main-bottom-left-t1{
+        margin-top: 0.25rem;
+        font-size: 0.31rem;
+        /*margin-bottom: 10px;*/
+    }
+}
+/*平板*/
+@media screen and (min-width:640px){
+    .main-input .success{
+        position: absolute;
+        font-size: 14px;
+        line-height: 20px;
+        right: -25px;
+        width: 20px;
+        height: 20px;
+        background-color: #55CC5E;
+        border-radius: 20px;
+        color: #fff;
+    }
+    .main{
+        text-align: center;
+        width: 440px;
+    }
+    html,body{
+        font-size: 16px;
+    }
+    .header{
+        margin: 30px auto;
+        width: 575px;
+        text-align: right;
+        cursor:pointer;
+    }
+    .main-logo{
+        display: block;
+        width: 110px;
+        height: 110px;
+        margin-bottom: 35px;
+    }	
+	/*.logo{
+		background:url(../../image/DIPNETlogo.png) no-repeat;
+		display:block;
+		width:110px;
+		height:110px;
+		margin:0 auto;
+		margin-bottom: 2em;
+	}*/
+    .main-text1{
+        /*margin-bottom: 25px;*/
+    }
+    .main{
+        margin-top: 100px;
+    }
+    .main-btn a{
+        color: #fff;
+        font-size: 25px;
+    }
+    .main-text2{
+        margin-bottom: 50px;
+    }
+
+    .main-text3 .a:active{
+        color: #2763ff;
+    }
+    .main-text3 .a:hover{
+        color: #fff;
+    }
+    .main-text3{
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .main-text4{
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .main-p{
+        cursor: pointer;
+        width: 440px;
+        height: 50px;
+        background-color: #3678ff;
+        border-radius: 50px;
+        line-height: 50px;
+        margin-bottom: 35px;
+    }
+    .main-p:hover{
+        background-color: #0C54E4;
+    }
+    .main-input{
+        position: relative;
+        margin: 0 auto;
+        width: 440px;
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 50px;
+        background: #F0F1F8;
+    }
+    .main-left{
+        width: 500px;
+        border: none;
+        padding-left: 22px;
+        margin-left: 2px;
+        background: #F0F1F8;
+    }
+    .main-btn2{
+        font-size: 14px;
+        width: 80px;
+        height: 35px;
+        line-height: 35px;
+        border: none;
+        align-items: center;
+        margin-right: 8px;
+        cursor: pointer;
+        color: #fff;
+        border-radius: 17.5px;
+        background-color: #3678ff;
+    }
+    .main-text5{
+        margin-bottom: 35px;
+    }
+    .main-text6{
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 17px;
+    }
+    .main-text7{
+        margin-bottom: 44px;
+    }	
+    .main-text8{
+        margin-top: 30px;
+    }
+    .main-bottom{
+        margin: 0 auto;
+        display: flex;
+        width: 575px;
+    }
+    .main-bottom text{
+        display: block;
+        font-size: 13px;
+    }
+    .main-bottom-left,.main-bottom-right{
+        width: 202px;
+        height: 100px;
+        color: #fff;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-bottom .main-bottom-left-t3{
+        font-size: 13px;
+        color: #f9aab6;
+    }
+    .main-btn2:hover{
+        background-color: #0C54E4;
+    }
+    .main-text3 a{
+        text-decoration:none;
+    }
+    .main-btn2:active{
+        background-color: #2763ff;
+    }
+    .main-bottom-left{
+        background-color: #226CFF;
+        margin-right: 45px;
+    }
+    .main-bottom-right{
+        background-color: #FF3860;
+
+    }
+    .main-bottom-left .main-bottom-left-t2{
+        font-size: 30px;
+    }
+    .main-bottom-right .main-bottom-left-t2{
+        font-size: 30px;
+    }
+    .main-bottom-left-t1{
+        margin-top: 14px;
+        /*margin-bottom: 10px;*/
+    }
+}
+@media screen and (max-width:320px){
+    html{
+        font-size: 28px;
+    }
+}
